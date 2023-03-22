@@ -1,0 +1,15 @@
+GET http://localhost:3000/particular
+####
+GET http://localhost:3000/particular/64150097621ccbeb994bf2f0
+###
+
+POST http://localhost:3000/particular
+Content-Type: application/json
+
+{
+    "name": "Xinqi",
+    "phone": "89568956"
+}
+
+###
+DELETE http://localhost:3000/particular/64150097621ccbeb994bf2f0
