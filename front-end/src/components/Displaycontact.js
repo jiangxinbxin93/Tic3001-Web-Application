@@ -12,7 +12,7 @@ function Displaycontact() {
       .then((res) => setData(res.data))
       .catch((err) => console.log(err, "it has an error"));
   });
-  
+  console.log(data.length)
 
   const handleDelete = (id,e) => {
     
